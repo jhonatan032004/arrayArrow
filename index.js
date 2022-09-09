@@ -12,4 +12,4 @@ console.log(dividir.mensaje() + dividir.division(num1, num2))
 console.log(multiplicar.mensaje() + multiplicar.multiplicacion(num1, num2))
 console.log(sumar.suma(num1, num2)) //malas practicas
 console.log(restar.resta(num1, num2)) //malas practicas
-console.log(vec.nombre(1))
+console.log(vec.nombre(-6))

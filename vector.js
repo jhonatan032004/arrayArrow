@@ -1,6 +1,6 @@
 const nombre = (posicion) =>{
     let vec = ['MARIA', 'JUAN', 'CARLOS', 'EMPERATRIZ']
-    if(posicion>=vec.length)return "El valor es invalido";
+    if(posicion>=vec.length || posicion<0)return "El valor es invalido";
     return vec[posicion];
 }
 
